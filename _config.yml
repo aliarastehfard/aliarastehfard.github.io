@@ -1,0 +1,26 @@
+title: Ali Arastehfard
+description: Personal site and blog for applied cryptography research and updates.
+url: "https://aliarastehfard.github.io"
+baseurl: ""
+
+markdown: kramdown
+permalink: /blog/:title/
+
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+
+exclude:
+  - push.sh
