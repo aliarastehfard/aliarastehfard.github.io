@@ -3,7 +3,7 @@ layout: default
 ---
 
 <section class="container">
-  <h2>{{ page.title | default: "Blog" }}</h2>
+  <h1>{{ page.title | default: "Blog" }}</h1>
   <hr>
   <ul class="post-list">
     {% for post in site.posts %}
@@ -20,7 +20,6 @@ layout: default
     <li class="post-empty">No posts yet. Stay tuned for updates.</li>
     {% endfor %}
   </ul>
-
   <p class="blog-back">
     <a href="{{ '/' | relative_url }}">← Back to home</a>
   </p>
