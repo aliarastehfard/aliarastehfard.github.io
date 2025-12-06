@@ -1,9 +1,11 @@
+/* Base page styling */
 body {
     margin: 0;
     font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
     color: #222;
 }
 
+/* Header info card */
 .info {
     max-width: 640px;
     margin: 2rem auto;
@@ -54,16 +56,18 @@ body {
     text-decoration: underline;
 }
 
-.summary {
+/* Main content container */
+.container {
     max-width: 720px;
     margin: 0 auto 3rem;
     padding: 0 2rem;
 }
 
-.summary h2 {
+.container h2 {
     margin-top: 0;
 }
 
+/* Links inside the header card */
 .links {
     display: flex;
     justify-content: center;
@@ -75,6 +79,7 @@ body {
     text-align: center;
 }
 
+/* Mobile responsive layout */
 @media (max-width: 640px) {
     .info {
         flex-direction: column;
