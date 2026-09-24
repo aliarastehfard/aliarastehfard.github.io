@@ -2,10 +2,6 @@
   description: >-
     Our paper _"KPIR-C: Keyword PIR with Arbitrary Server-Side Computation"_ has been accepted to appear at NDSS 2027 ([Paper](https://eprint.iacr.org/2025/1952), [Code](https://github.com/datasec-lab/kpirc)).
 
-- date: "July 22, 2026"
-  description: >-
-    I was awarded a Conference Participation Award from the UConn Graduate School to present a poster at Agentic AI Summit 2026 ([Event](https://rdi.berkeley.edu/events/agentic-ai-summit-2026)).
-
 - date: "September 2026"
   description: >-
     I passed my dissertation proposal on September 9, 2026.
@@ -13,6 +9,10 @@
 - date: "July 2026"
   description: >-
     Our paper _"Secure and Efficient L<sup>p</sup>-Norm Computation for Two-Party Learning Applications"_ was accepted to appear at _IEEE Transactions on Information Forensics and Security (IEEE TIFS)_ ([Paper](https://ieeexplore.ieee.org/abstract/document/11612925), [Code](https://github.com/datasec-lab/cryptoLp)).
+
+- date: "July 2026"
+  description: >-
+    I was awarded a Conference Participation Award from the UConn Graduate School to present a poster at Agentic AI Summit 2026 ([Event](https://rdi.berkeley.edu/events/agentic-ai-summit-2026)).
 
 - date: "Spring 2026"
   description: >-

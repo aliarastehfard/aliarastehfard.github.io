@@ -26,8 +26,7 @@ Outside of research, I enjoy playing tennis, hiking new trails, and reading book
 ## Professional Service
 
 - **ACM Conference on Computer and Communications Security (CCS 2026)** — Artifact Evaluation Program Committee Member / Reviewer
+- **NDSS, ACM CCS, USENIX Security, and IEEE Symposium on Security and Privacy (S&P)** — External Reviewer / Subreviewer, 2022–2026
 - **IEEE Transactions on Dependable and Secure Computing (TDSC)** — Reviewer, 2024–2026
-- **IEEE International Conference on Trust, Privacy and Security in Intelligent Systems, and Applications (IEEE TPS)** — External Reviewer / Subreviewer, 2024
+- **IEEE International Conference on Trust, Privacy and Security in Intelligent Systems, and Applications (IEEE TPS)** — External Reviewer / Subreviewer, 2022–2024
 - **ACM International Conference on Autonomous Agents and Multiagent Systems (AAMAS)** — External Reviewer / Subreviewer, 2023
-- **IEEE International Conference on Trust, Privacy and Security in Intelligent Systems, and Applications (IEEE TPS)** — External Reviewer / Subreviewer, 2023
-- **IEEE International Conference on Trust, Privacy and Security in Intelligent Systems, and Applications (IEEE TPS)** — External Reviewer / Subreviewer, 2022
