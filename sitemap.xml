@@ -4,10 +4,18 @@ permalink: /sitemap.xml
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-{% for page in site.pages %}
+{% for page in site.html_pages %}
   {% if page.published != false and page.sitemap != false and page.url != '/sitemap.xml' %}
     <url>
       <loc>{{ page.url | absolute_url | replace:'index.html','' }}</loc>
+      <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+  {% endif %}
+{% endfor %}
+{% for file in site.static_files %}
+  {% if file.extname == ".html" and file.path != "/sitemap.xml" and file.path != "/robots.txt" %}
+    <url>
+      <loc>{{ file.path | absolute_url }}</loc>
       <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     </url>
   {% endif %}
