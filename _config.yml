@@ -1,14 +1,15 @@
 title: Ali Arastehfard
-description: Personal site and blog for applied cryptography research and updates.
+description: Personal site for applied cryptography research and updates.
 url: "https://aliarastehfard.github.io"
 baseurl: ""
+social_image: "/assets/images/tennisfan.JPG"
 
 markdown: kramdown
 permalink: /blog/:title/
 
 collections:
   posts:
-    output: true
+    output: false
 
 defaults:
   - scope:
@@ -16,6 +17,7 @@ defaults:
       type: "posts"
     values:
       layout: post
+      published: false
   - scope:
       path: ""
       type: "pages"
