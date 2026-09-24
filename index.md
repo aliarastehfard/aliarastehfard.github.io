@@ -1,11 +1,12 @@
 ---
 layout: home
 title: Ali Arastehfard
+description: Ali Arastehfard is a Ph.D. candidate at the University of Connecticut focused on applied cryptography, privacy-preserving information retrieval, and secure computation.
 ---
 
 ## About me
 
-Hi! I'm Ali, a Ph.D. candidate at the University of Connecticut specializing in applied cryptography. My research focuses on privacy-preserving information retrieval and secure computation. Recently, I’ve been exploring Private RAG, particularly in the context of scalable private web search.
+Hi! I'm Ali Arastehfard, a Ph.D. candidate at the University of Connecticut specializing in applied cryptography. My research focuses on privacy-preserving information retrieval and secure computation. Recently, I’ve been exploring Private RAG, particularly in the context of scalable private web search.
 
 Beyond my core research, I’m increasingly interested in AI security and have had the opportunity to collaborate on several projects in this area through my lab.
 

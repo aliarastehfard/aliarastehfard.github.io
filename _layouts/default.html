@@ -3,9 +3,12 @@
 
 <head>
     {% assign page_title = page.title | default: site.title %}
+    {% assign is_homepage = page.url == "/" %}
     {% assign page_description = page.description | default: page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 %}
     {% assign page_url = page.url | absolute_url %}
-    {% if page.title %}
+    {% if is_homepage %}
+    {% assign full_title = "Ali Arastehfard | Applied Cryptography Researcher" %}
+    {% elsif page.title %}
     {% assign full_title = page.title | append: " | " | append: site.title %}
     {% else %}
     {% assign full_title = site.title %}
@@ -26,6 +29,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ full_title }}</title>
     <meta name="description" content="{{ page_description | escape }}">
+    <meta name="robots" content="index,follow">
     <meta name="author" content="{{ site.title | escape }}">
     <meta name="theme-color" content="#fcfcfd">
     <link rel="canonical" href="{{ canonical_url }}">
@@ -45,6 +49,31 @@
     <meta name="twitter:description" content="{{ page_description | escape }}">
     {% if social_image %}
     <meta name="twitter:image" content="{{ social_image | absolute_url }}">
+    {% endif %}
+    {% if is_homepage %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfilePage",
+      "url": "{{ canonical_url }}",
+      "name": "Ali Arastehfard | Applied Cryptography Researcher",
+      "mainEntity": {
+        "@type": "Person",
+        "name": "Ali Arastehfard",
+        "jobTitle": "Applied Cryptography Researcher / Ph.D. Candidate",
+        "affiliation": {
+          "@type": "CollegeOrUniversity",
+          "name": "University of Connecticut"
+        },
+        "url": "{{ site.url }}{{ site.baseurl }}/",
+        "sameAs": [
+          "https://scholar.google.com/citations?user=S38w4koAAAAJ&hl=en",
+          "https://github.com/aliarastehfard",
+          "https://www.linkedin.com/in/aliarastehfard/"
+        ]
+      }
+    }
+    </script>
     {% endif %}
     <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
 </head>
